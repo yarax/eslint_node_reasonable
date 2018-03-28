@@ -1,0 +1,174 @@
+---
+  env:
+    node: true
+    es6: true
+  extends: "eslint:recommended"
+  rules:
+    indent:
+      - 2
+      - 2
+      -
+        SwitchCase: 1
+        VariableDeclarator: 1
+    linebreak-style: 0
+    quotes:
+      - 2
+      - "single"
+      - "avoid-escape"
+    semi:
+      - 2
+      - "always"
+    max-depth:
+      - 0
+      - 5
+    max-params:
+      - 0
+      - 4
+    callback-return: 0
+    arrow-spacing:
+      - 2
+      -
+        before: true
+        after: true
+    prefer-template: 2
+    prefer-const: 2
+    block-scoped-var: 2
+    curly:
+      - 2
+      - "multi-line"
+    default-case: 2
+    eqeqeq: 2
+    no-unused-expressions: 2
+    no-console: 1
+    no-debugger: 1
+    no-dupe-args: 2
+    no-dupe-keys: 2
+    no-duplicate-case: 2
+    no-empty: 2
+    no-ex-assign: 2
+    no-extra-boolean-cast: 0
+    no-extra-parens:
+      - 2
+      - "functions"
+    no-extra-semi: 2
+    no-func-assign: 2
+    no-inner-declarations: 2
+    no-invalid-regexp: 2
+    no-irregular-whitespace: 2
+    no-unreachable: 2
+    no-unexpected-multiline: 2
+    no-implicit-globals: 0
+    no-shadow-restricted-names: 2
+    no-shadow: 2
+    no-unused-vars:
+      - 2
+      -
+        vars: "local"
+        args: "none"
+    no-use-before-define: 2
+    array-bracket-spacing:
+      - 2
+      - "never"
+    brace-style:
+      - 2
+      - "1tbs"
+      -
+        allowSingleLine: true
+    camelcase:
+      - 2
+      -
+        properties: "never"
+    comma-spacing:
+      - 2
+      -
+        before: false
+        after: true
+    comma-style:
+      - 2
+      - "last"
+    computed-property-spacing:
+      - 2
+      - "never"
+    consistent-this: 0
+    func-names: 0
+    func-style: 0
+    id-length: 0
+    jsx-quotes:
+      - 2
+      - "prefer-double"
+    key-spacing:
+      - 2
+      -
+        beforeColon: false
+        afterColon: true
+    lines-around-comment: 0
+    max-len:
+      - 1
+      - 300
+      - 1
+      -
+        ignoreUrls: true
+        ignoreComments: false
+    max-nested-callbacks: 0
+    new-cap:
+      - 1
+      -
+        newIsCap: true
+    new-parens: 0
+    newline-after-var: 0
+    newline-before-return: 0
+    newline-per-chained-call:
+      - 0
+      -
+        ignoreChainWithDepth: 3
+    no-array-constructor: 2
+    no-continue: 0
+    no-inline-comments: 0
+    no-lonely-if: 0
+    no-mixed-spaces-and-tabs: 2
+    no-multiple-empty-lines:
+      - 2
+      -
+        max: 2
+        maxEOF: 1
+    no-nested-ternary: 2
+    no-new-object: 2
+    no-spaced-func: 2
+    no-ternary: 0
+    no-trailing-spaces: 2
+    no-underscore-dangle: 0
+    no-unneeded-ternary:
+      - 2
+      -
+        defaultAssignment: false
+    operator-assignment: 0
+    operator-linebreak: 0
+    padded-blocks:
+      - 2
+      - "never"
+    quote-props:
+      - 1
+      - "as-needed"
+      -
+        keywords: false
+        unnecessary: true
+        numbers: false
+    id-match: 0
+    semi-spacing:
+      - 2
+      -
+        before: false
+        after: true
+    sort-vars: 0
+    space-before-blocks: 2
+    space-before-function-paren:
+      - 2
+      -
+        anonymous: "always"
+        named: "never"
+    space-in-parens:
+      - 2
+      - "never"
+    space-infix-ops: 2
+    space-unary-ops: 0
+    wrap-regex: 0
