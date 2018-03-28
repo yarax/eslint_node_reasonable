@@ -1,6 +1,6 @@
 {
   "name": "eslint_node_reasonable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yarax/eslint_node_reasonable/issues"
   },
-  "homepage": "https://github.com/yarax/eslint_node_reasonable#readme"
+  "homepage": "https://github.com/yarax/eslint_node_reasonable#readme",
+  "devDependencies": {
+    "eslint_node_reasonable": "^1.0.0"
+  }
 }
